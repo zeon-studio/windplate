@@ -12,8 +12,8 @@
 
 ### 📦 Dependency
 
-- node v18+
-- npm v9.5+
+- node v20+
+- npm v10+
 - gulp v4+
 
 ### 👉 Package Installation
