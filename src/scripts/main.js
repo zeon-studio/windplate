@@ -1,3 +1,5 @@
+/* global Swiper */
+
 (function () {
   "use strict";
 
@@ -39,7 +41,7 @@
 
   // Testimonial Slider
   // ----------------------------------------
-  new Swiper(".testimonial-slider", {
+  const testimonialSwiper = new Swiper(".testimonial-slider", {
     spaceBetween: 24,
     loop: true,
     pagination: {
@@ -95,7 +97,7 @@
 
   const tablist = document.querySelectorAll("[data-tab-nav] [data-tab]");
   function tabsHandler(event) {
-    let index = Array.from(tablist).indexOf(this);
+    let index = Array.from(tablist).indexOf(event.currentTarget);
     let numbTabs = tablist.length;
     let nextId;
     if (numbTabs > 1) {

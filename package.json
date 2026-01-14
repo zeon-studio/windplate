@@ -29,8 +29,10 @@
     "gulp-wrapper": "^1.0.0",
     "jshint": "^2.13.6",
     "jshint-stylish": "^2.2.1",
+    "postcss": "^8.4.47",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "tailwind-bootstrap-grid": "^6.0.0"
+    "tailwind-bootstrap-grid": "^6.0.0",
+    "tailwindcss": "^4.1.18"
   }
 }
