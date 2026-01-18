@@ -1,6 +1,6 @@
 {
   "name": "windplate",
-  "version": "4.4.1",
+  "version": "4.5.0",
   "description": "Gulp and Tailwindcss boilerplate for creating HTML templates",
   "author": "Zeon Studio",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "remove-darkmode": "node scripts/removeDarkmode.mjs && yarn format"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "browser-sync": "^3.0.4",
@@ -29,7 +29,7 @@
     "gulp-wrapper": "^1.0.0",
     "jshint": "^2.13.6",
     "jshint-stylish": "^2.2.1",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.0",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwind-bootstrap-grid": "^6.0.0"
   }
